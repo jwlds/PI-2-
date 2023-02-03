@@ -1,0 +1,70 @@
+.form {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+}
+
+#validationDefaultCode2{
+    position: relative;
+    width: 500px;
+    top: -93px;
+    left: 469px;
+}
+
+.btn-pos1{
+    position: relative;
+    left: 280px;
+    top: -143px;
+    background-color: #0d6efd;
+    color: white;
+    border: 0;
+    padding: 13px 10px 13px 10px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.btn-pos1:hover{
+    background-color: #0b5ed7;
+    transition: 0.4s;
+}
+
+.h1-usage{
+    font-size: 3rem;
+    position: relative;
+    top: 174px;
+    left: 500px;
+}
+
+.btn-pos3{
+    position: relative;
+    left: 235px;
+    top: 5px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .table-bordered {
+    border: 1px solid #ddd !important;
+  }
+  
+  table caption {
+      padding: .5em 0;
+  }
+  
+  @media screen and (max-width: 767px) {
+    table caption {
+      display: none;
+    }
+  }
+  
+  .p {
+    text-align: center;
+    padding-top: 140px;
+    font-size: 14px;
+  }
+

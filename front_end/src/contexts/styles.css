@@ -1,0 +1,458 @@
+input[type="radio"] {
+  display: inline-block;
+}
+.input-fields {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-fields label {
+  display: block;
+  margin-bottom: 10px;
+  color: #b4b4b4;
+}
+
+.info {
+  font-size: 12px;
+  font-weight: 300;
+  display: block;
+  margin-top: 50px;
+  opacity: 0.5;
+  color: #2e2e2e;
+}
+
+div[class*="column"] {
+  width: 382px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="number"] {
+  font-size: 16px;
+  width: 100%;
+  height: 50px;
+  padding-right: 40px;
+  padding-left: 16px;
+  color: rgba(46, 46, 46, 0.8);
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 4px;
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus {
+  border-color: #0d6efd;
+}
+
+.small-inputs {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.small-inputs div {
+  width: 182px;
+}
+
+
+
+p {
+  margin: 0px;
+}
+
+.h8 {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.card .atm {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+
+.card .visa {
+  width: 50px;
+  height: 20px;
+  object-fit: fill;
+}
+
+.card .master {
+  width: 50px;
+  height: 50px;
+  object-fit: fill;
+}
+
+.debit-card {
+  width: 100%;
+  height: 150px;
+  padding: 20px;
+  background-color: #ffffff;
+  background-image: url("https://logopng.com.br/logos/pix-106.svg");
+  position: relative;
+  border-radius: 5px;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+.debit-card:hover {
+  box-shadow: 5px 3px 5px #000000a2;
+}
+
+.text-muted {
+  font-size: 0.8rem;
+}
+
+.text-white {
+  font-size: 14px;
+}
+
+.input {
+  position: absolute;
+  top: 6px;
+  right: 0;
+}
+
+input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #eee;
+  position: relative;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+input[type="radio"]:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f00c";
+  color: #fff;
+  font-size: 15px;
+  display: none;
+}
+
+input[type="radio"]:checked,
+input[type="radio"]:checked:hover {
+  background-color: blue;
+}
+
+input[type="radio"]:checked::after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="radio"]:hover {
+  background-color: #ddd;
+}
+
+.btnPay {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #0093e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0093e9;
+  transition: all 0.5s ease;
+  font-weight: 500;
+}
+
+.btnPay:hover {
+  color: #fff;
+  background-color: #0093e9;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+li,
+a {
+  font-size: 14px;
+  line-height: 160%;
+}
+
+input,
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+select::-ms-expand {
+  /* for IE 11 */
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 200;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+/* GRID */
+
+.twelve {
+  width: 100%;
+}
+.eleven {
+  width: 91.53%;
+}
+.ten {
+  width: 83.06%;
+}
+.nine {
+  width: 74.6%;
+}
+.eight {
+  width: 66.13%;
+}
+.seven {
+  width: 57.66%;
+}
+.six {
+  width: 49.2%;
+}
+.five {
+  width: 40.73%;
+}
+.four {
+  width: 32.26%;
+}
+.three {
+  width: 23.8%;
+}
+.two {
+  width: 15.33%;
+}
+.one {
+  width: 6.866%;
+}
+
+
+/* COLUMNS */
+
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+
+.col:first-of-type {
+  margin-left: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* CLEARFIX */
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+/* FORM */
+
+.form-wrapper {
+  margin: none;
+  padding: 20px 10px;
+  position: relative;
+  overflow: hidden;
+  color: #1a1a1a;
+}
+
+.form-wrapper h2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  width: 30px;
+  height: 2px;
+  background-color: #1a1a1a;
+}
+
+.five img {
+  width: 10em;
+  height: auto;
+  margin: 50px auto 30px auto;
+  display: block;
+}
+
+.five .item,
+.five .price {
+  text-align: center;
+  margin: 5px auto;
+}
+
+form,
+.title {
+  width: 75%;
+  margin: 0 auto;
+}
+
+form {
+  margin-top: 20%;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  padding: 10px 0px;
+  display: block;
+  margin: 15px auto;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.edate {
+  margin-top: 20px;
+}
+
+.edate p {
+  color: #fff;
+  font-size: 12px;
+}
+
+select {
+  background: transparent;
+  border: none;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px;
+  width: 30%;
+  color: #fff;
+  background-color: #1a1a1a;
+  outline: none;
+}
+
+.select-wrapper {
+  position: relative;
+  display: inline;
+  margin-right: 30px;
+}
+
+.select-wrapper:before {
+  content: "v";
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 4px;
+  pointer-events: none;
+  font-size: 12px;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+  font-size: 12px;
+}
+::-moz-placeholder {
+  color: #fff;
+  font-size: 12px;
+}
+:-ms-input-placeholder {
+  color: #fff;
+  font-size: 12px;
+}
+:-moz-placeholder {
+  color: #fff;
+  font-size: 12px;
+}
+
+.submit-wrapper {
+  text-align: right;
+}
+
+input.submit {
+  border: 1px solid #fff;
+  color: #fff;
+  display: inline-block;
+  width: auto;
+  cursor: pointer;
+  padding: 8px 20px;
+  margin: 30px 0;
+  font-size: 12px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+input.submit:hover {
+  background-color: #fff;
+  color: white;
+}
+
+.qrCode {
+  margin-left: 35%;
+  margin-right: auto;
+}
+
+.cardImg {
+  width: 300px;
+}
+
+.inputCode {
+  color: white;
+}
+
+tbody{
+  background-color: #fff;
+}
+
+tr:hover  td{
+  background: #F0F0F0;
+  cursor: poiter;
+}
+
+
+.CodeTicket{
+  color: black;
+  font-size: 30px;
+}
+
+.codeUse {
+  font-size: 2em;
+
+}
+
